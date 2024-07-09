@@ -107,7 +107,7 @@ export const JWT_SECRET = process.env.JWT_SECRET || "JWT_SECRET";
 
 export const MEMPOOL_URL = TEST_MODE
   ? "https://mempool.space/testnet/api"
-  : "https://ordinalgenesis.mempool.space/api";
+  : "https://mempool.space/api";
 
 export const UNISAT_URL = TEST_MODE
   ? "https://open-api-testnet.unisat.io/v1"
@@ -128,7 +128,7 @@ export const SERVICE_FEE_ADDRESS = TEST_MODE
   : "bc1ppd09afhjt4uelc8shxu5qqct6tc84e2nxdwj4f77ew8k6p6kcg5s47cwrg";
 
 export const WIF_KEY = TEST_MODE
-  ? "cUpP2sL3WGuZhF4LKEQxfQGUqgC1MdByV9mw2Luek6enxWPqnSaH"
+  ? ""
   : (process.env.WIF_KEY as string);
 
 export const SIGNATURE_SIZE = 126;
